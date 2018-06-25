@@ -136,7 +136,7 @@ Here is the successful response data:
 
 The Rule is now active and will trigger the Action specified if the prediction value matches the value you specified in the operand.
 
-2. #### View this Rule in your account
+### 2. View this Rule in your account
 
 You can verify the Rule is added to your account by visiting the [Rules dashboard](https://my.artik.cloud/rules). Check ("*show private rules* …") to view any additional Rules that are only accessible by the application.
 
@@ -146,7 +146,7 @@ You can verify the Rule is added to your account by visiting the [Rules dashboar
 
 This sample only demontrates creating the Rule in your account.
 
-Test the Rule by sending a message to the device. If the prediction condition is matched, the Rule will trigger the Action you specified.  
+Test the prediction by sending a message to the device. If the prediction condition is matched, the Rule will trigger the Action you specified.  
 
 Here are a few options to send a message:
 
