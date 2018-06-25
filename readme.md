@@ -47,8 +47,6 @@ rule_body.rule.if = {
   //...
 ```
 
-3. In this sample, if the predicted value matches the condition you specified, this will trigger the `setOn` Action on the device. If you wish to trigger a different Action on the device, replace the "setOn" Action with a different value.
-
 Additionally, we set the Rule transformer to a "prediction" type condition. (See the possible types of [machine learning conditions](https://developer.artik.cloud/documentation/rules-engine.html#apply-machine-learning).) The below Rule triggers if the predicted value you defined is "true".
 
 ```
@@ -63,6 +61,8 @@ rule_body.rule.if = {
              }
         //...
 ```
+
+3. In this sample, if the predicted value matches the condition you specified, this will trigger the `setOn` Action on the device. If you wish to trigger a different Action on the device, replace the "setOn" Action with a different value.
 
 4. We will also make this Rule accessible only by the application associated with your user token:
 
