@@ -1,4 +1,4 @@
-# Add prediction condition to Rule 
+# Add prediction Rule 
 
 This is an ARTIK cloud services sample that creates a [machine learning Rule](https://developer.artik.cloud/documentation/rules-engine.html#apply-machine-learning) with a prediction condition.
 
