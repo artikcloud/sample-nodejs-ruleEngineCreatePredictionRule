@@ -47,7 +47,7 @@ rule_body.rule.if = {
   //...
 ```
 
-Additionally, we set the Rule transformer to a "prediction" type condition. (See the possible types of [machine learning conditions](https://developer.artik.cloud/documentation/rules-engine.html#apply-machine-learning).) The below Rule triggers if the predicted value you defined is "true".
+Additionally, we set the Rule transformer to a "prediction" type condition. (See the possible types of [machine learning conditions](https://developer.artik.cloud/documentation/rules-engine.html#apply-machine-learning).) The below Rule triggers if the predicted value you defined is "true" in one hour.
 
 ```
 rule_body.rule.if = {
