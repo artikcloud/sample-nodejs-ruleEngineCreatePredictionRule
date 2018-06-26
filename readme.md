@@ -158,8 +158,7 @@ Here are a few options to send a message:
 
 ## Final notes:
 
-1. The Rule engine allows 10 Rules per user per application. Attempting to create more will result in the following error:
-
+1. The Rule engine allows a maximum of 10 models per application per user.
    ```
    "errors": [{
      "messages": "10 models can be created per app per user. Contact business team if you need more."
